@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ex+6jj7MqubdLT2ExeZkaXDAWG12XdQ1O5YDYqSrhhrxtwujj3V5kRy/33rkySfsKSdVaJ6uHTN0bkCkdM50mw==",
+  "success": true,
+  "projectFilePath": "/Users/marc/Documents/Latlier/Kata/Tennis/Tennis/Tennis.csproj",
+  "expectedPackageFiles": [
+    "/Users/marc/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
