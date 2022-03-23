@@ -63,43 +63,17 @@ app.MapGet("/players/{id:int}", ( int id) =>
 app.MapGet("/players/statistics", () =>
 {
     var players = GetPlayers();
-
-
-    var playerListByCountry  = new Dictionary<string,List<Player>>();
-    //key is playerCountry
-    //value is playerID
     
-    foreach (var player in players.Players)
-    {
-        if (!playerListByCountry.ContainsKey(player.Country.Code))
-        {
-            playerListByCountry.Add(player.Country.Code,new List<Player>());
-        }
-
-        playerListByCountry[player.Country.Code].Add(player);
-
-    }
-
-    float maxWinrate = 0f;
-    string paysPlusFort = "";
-    foreach (var keyValuePair in playerListByCountry)
-    {
-        //winrate de players de un list
-        var winratePay = keyValuePair.Value.Average(GetWinrate);
-        
-        if (winratePay > maxWinrate)
-        {
-            paysPlusFort = keyValuePair.Key;
-        }
-        maxWinrate = Math.Max(maxWinrate, winratePay);
-        
-    }
-
     var averageIMC = players.Players.Average(GetIMC);
     var medianHeight = GetMedianHeight(players);
-
+    var countryMaxwinrate =  players.Players
+        .GroupBy(player => player.Country)
+        .Select(grouping => new{Country = grouping.Key, winrate = grouping.Average(GetWinrate)})
+        .MaxBy(arg => arg.winrate)
+        ?.Country;
+ 
     
-    return new {averageIMC,medianHeight,paysPlusFort};
+    return new {averageIMC,medianHeight,countryMaxwinrate};
 });
 
 
