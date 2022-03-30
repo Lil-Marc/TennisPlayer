@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis", "Tennis\Tennis.csproj", "{E672300C-9EB6-421A-8A7A-A0728BCACFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Api", "Tennis.Api\Tennis.Api.csproj", "{E672300C-9EB6-421A-8A7A-A0728BCACFAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
