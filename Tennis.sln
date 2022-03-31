@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Api", "Tennis.Api\Tennis.Api.csproj", "{E672300C-9EB6-421A-8A7A-A0728BCACFAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Application", "Tennis.Application\Tennis.Application.csproj", "{B83F38F8-746C-4E59-87DC-428045477BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tennis.Domain", "Tennis.Domain\Tennis.Domain.csproj", "{C374C2A6-D152-44BE-B65B-E7E6BB6F27C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{E672300C-9EB6-421A-8A7A-A0728BCACFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E672300C-9EB6-421A-8A7A-A0728BCACFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E672300C-9EB6-421A-8A7A-A0728BCACFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83F38F8-746C-4E59-87DC-428045477BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83F38F8-746C-4E59-87DC-428045477BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83F38F8-746C-4E59-87DC-428045477BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83F38F8-746C-4E59-87DC-428045477BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C374C2A6-D152-44BE-B65B-E7E6BB6F27C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C374C2A6-D152-44BE-B65B-E7E6BB6F27C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C374C2A6-D152-44BE-B65B-E7E6BB6F27C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C374C2A6-D152-44BE-B65B-E7E6BB6F27C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

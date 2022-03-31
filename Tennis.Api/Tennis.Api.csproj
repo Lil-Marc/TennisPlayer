@@ -5,9 +5,14 @@
         <Nullable>enable</Nullable>
         <RootNamespace>Tennis</RootNamespace>
     </PropertyGroup>
-
+    
     <ItemGroup>
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Tennis.Application\Tennis.Application.csproj" />
+      <ProjectReference Include="..\Tennis.Domain\Tennis.Domain.csproj" />
     </ItemGroup>
 
 </Project>

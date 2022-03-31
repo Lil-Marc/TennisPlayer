@@ -1,6 +1,7 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Tennis.Application.UseCases.Players.Get;
 using Tennis.Entities;
 using IOFile =System.IO.File;
 
@@ -11,18 +12,11 @@ namespace Tennis.Controllers.Players.GetById;
 [ApiController]
 public class PlayersController : ControllerBase
 {
-    static PlayersCollection GetPlayers()
+    [HttpGet("{id:int}", Name = "Get player by Id")]
+    public IActionResult GetPlayerById([FromServices] IGetPlayerUseCase useCase,[FromRoute] int id)
     {
-        var text = IOFile.ReadAllText("Data/Tennis_player.json");
-        var players = JsonConvert.DeserializeObject<PlayersCollection>(text);
-        return players;
+
+        return Ok(useCase.GetPlayerById(id));
     }
     
-    [HttpGet("{id:int}", Name = "Get player by Id")]
-    public IActionResult GetPlayerById([FromRoute] int id)
-    {
-        var players = GetPlayers();
-        
-        return Ok(players.Players.First(player => player.Id == id));
-    }
 }

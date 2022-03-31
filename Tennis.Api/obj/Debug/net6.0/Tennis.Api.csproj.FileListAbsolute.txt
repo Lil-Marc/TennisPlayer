@@ -22,3 +22,9 @@
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/obj/Debug/net6.0/Tennis.Api.pdb
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/obj/Debug/net6.0/Tennis.Api.genruntimeconfig.cache
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/obj/Debug/net6.0/ref/Tennis.Api.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Application.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Domain.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Application.pdb
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Domain.pdb

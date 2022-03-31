@@ -1,0 +1,15 @@
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/bin/Debug/net6.0/Tennis.Application.deps.json
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/bin/Debug/net6.0/Tennis.Application.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/bin/Debug/net6.0/Tennis.Application.pdb
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/bin/Debug/net6.0/Tennis.Domain.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/bin/Debug/net6.0/Tennis.Domain.pdb
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.csproj.AssemblyReference.cache
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.AssemblyInfoInputs.cache
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.AssemblyInfo.cs
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.csproj.CoreCompileInputs.cache
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.csproj.CopyComplete
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/refint/Tennis.Application.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/Tennis.Application.pdb
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Application/obj/Debug/net6.0/ref/Tennis.Application.dll
