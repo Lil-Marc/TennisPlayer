@@ -28,3 +28,5 @@
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Domain.dll
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Application.pdb
 /Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Domain.pdb
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Infra.Persistence.JsonFile.dll
+/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Api/bin/Debug/net6.0/Tennis.Infra.Persistence.JsonFile.pdb

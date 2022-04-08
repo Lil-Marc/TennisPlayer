@@ -10,7 +10,8 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "Tennis.Application": "1.0.0",
-          "Tennis.Domain": "1.0.0"
+          "Tennis.Domain": "1.0.0",
+          "Tennis.Infra.Persistence.JsonFile": "1.0.0"
         },
         "runtime": {
           "Tennis.Api.dll": {}
@@ -480,6 +481,15 @@
       "Tennis.Domain/1.0.0": {
         "runtime": {
           "Tennis.Domain.dll": {}
+        }
+      },
+      "Tennis.Infra.Persistence.JsonFile/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Tennis.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Tennis.Infra.Persistence.JsonFile.dll": {}
         }
       }
     }
@@ -958,6 +968,11 @@
       "sha512": ""
     },
     "Tennis.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tennis.Infra.Persistence.JsonFile/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

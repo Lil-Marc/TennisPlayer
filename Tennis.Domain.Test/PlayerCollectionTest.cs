@@ -14,7 +14,7 @@ public class PlayerCollectionTest
     public void Given_PlayerCollection_Then_MedianHeightShouldBeCorrect(int[] heights,float res)
     {
         //arrange
-        var players = heights.Select(height => new Player()
+        List<Player?> players = heights.Select(height => new Player()
         {
             Data = new Data(65000, height)
         }).ToList();

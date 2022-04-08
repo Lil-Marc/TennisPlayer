@@ -8,12 +8,12 @@ public class PlayersCollection
     {
     }
 
-    public PlayersCollection(List<Player> players)
+    public PlayersCollection(List<Player?> players)
     {
         Players = players;
     }
 
-    public List<Player> Players { get; set; }
+    public List<Player?> Players { get; set; }
     public float GetMedianHeight()
     {
         //pair

@@ -1,14 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Tennis.Application.UseCases.Players.Get;
+using Tennis.Application.UseCases.Players.GetAll;
+using Tennis.Domain.Persistance.Players;
+using Tennis.Infra.Persistence.JsonFile.Players;
 
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
-// builder.Services.AddRouting();
 
-builder.Services.AddTransient<IGetPlayerUseCase,GetPlayerUseCase>();
+
+builder.Services.AddTransient<IGetOnePlayerUseCase,GetOnePlayerUseCase>();
+builder.Services.AddTransient<IGetAllPlayerUseCase,GetAllPlayerUseCase>();
+builder.Services.AddTransient<IPlayerReadRepository,PlayerReadRepository>();
 
 
 

@@ -895,6 +895,20 @@
         "runtime": {
           "bin/placeholder/Tennis.Domain.dll": {}
         }
+      },
+      "Tennis.Infra.Persistence.JsonFile/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Tennis.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tennis.Infra.Persistence.JsonFile.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tennis.Infra.Persistence.JsonFile.dll": {}
+        }
       }
     }
   },
@@ -3265,13 +3279,19 @@
       "type": "project",
       "path": "../Tennis.Domain/Tennis.Domain.csproj",
       "msbuildProject": "../Tennis.Domain/Tennis.Domain.csproj"
+    },
+    "Tennis.Infra.Persistence.JsonFile/1.0.0": {
+      "type": "project",
+      "path": "../Tennis.Infra.Persistence.JsonFile/Tennis.Infra.Persistence.JsonFile.csproj",
+      "msbuildProject": "../Tennis.Infra.Persistence.JsonFile/Tennis.Infra.Persistence.JsonFile.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.1",
       "Tennis.Application >= 1.0.0",
-      "Tennis.Domain >= 1.0.0"
+      "Tennis.Domain >= 1.0.0",
+      "Tennis.Infra.Persistence.JsonFile >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3304,6 +3324,9 @@
             },
             "/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Domain/Tennis.Domain.csproj": {
               "projectPath": "/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Domain/Tennis.Domain.csproj"
+            },
+            "/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Infra.Persistence.JsonFile/Tennis.Infra.Persistence.JsonFile.csproj": {
+              "projectPath": "/Users/marc/Documents/Latlier/Kata/Tennis/Tennis.Infra.Persistence.JsonFile/Tennis.Infra.Persistence.JsonFile.csproj"
             }
           }
         }

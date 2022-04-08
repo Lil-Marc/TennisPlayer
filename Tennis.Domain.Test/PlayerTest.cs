@@ -42,5 +42,5 @@ public class PlayerTest
         Assert.Equal(0.4, player.GetWinrate(),1);
     }
     
-    
+
 }

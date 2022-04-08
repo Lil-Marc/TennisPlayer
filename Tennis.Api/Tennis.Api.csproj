@@ -13,6 +13,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Tennis.Application\Tennis.Application.csproj" />
       <ProjectReference Include="..\Tennis.Domain\Tennis.Domain.csproj" />
+      <ProjectReference Include="..\Tennis.Infra.Persistence.JsonFile\Tennis.Infra.Persistence.JsonFile.csproj" />
     </ItemGroup>
 
 </Project>
