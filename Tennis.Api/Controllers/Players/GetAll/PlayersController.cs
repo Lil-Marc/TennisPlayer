@@ -24,5 +24,6 @@ public class PlayersController : ControllerBase, IGetAllPlayerOutputPort
         useCase.Execute();
         
         return _viewModel!;
+        
     }
 }
