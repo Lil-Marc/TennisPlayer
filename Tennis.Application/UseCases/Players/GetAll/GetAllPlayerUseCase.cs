@@ -1,5 +1,4 @@
 using Tennis.Domain.Persistance.Players;
-using Tennis.Entities;
 
 namespace Tennis.Application.UseCases.Players.GetAll;
 

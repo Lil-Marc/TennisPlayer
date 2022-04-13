@@ -1,8 +1,4 @@
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Tennis.Domain.Persistance.Players;
-using Tennis.Entities;
 using IOFile =System.IO.File;
 
 namespace Tennis.Application.UseCases.Players.Get;

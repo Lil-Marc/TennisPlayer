@@ -1,4 +1,4 @@
-namespace Tennis.Entities;
+namespace Tennis.Domain.Entities;
 
 
 // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
@@ -33,13 +33,14 @@ public class Player
     
     public decimal GetIMC()
     {
-        var weight = this.Data.Weight / 1000m;
-        var height = this.Data.Height / 100m;
+        var weight = Data.Weight / 1000m;
+        var height = Data.Height / 100m;
     
         var imc = weight  / (height * height);
     
         return imc;
     }
+    
     public float GetWinrate()
     {
         var victoryCount = this.Data.Last.Sum();

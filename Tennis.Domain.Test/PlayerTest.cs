@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Tennis.Entities;
+using Tennis.Domain.Entities;
 using Xunit;
 
 namespace Tennis.Domain.Test;

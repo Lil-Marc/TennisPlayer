@@ -1,8 +1,6 @@
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Tennis.Application.UseCases.Players.Get;
-using Tennis.Entities;
+using Tennis.Domain.Entities;
 using IOFile =System.IO.File;
 
 namespace Tennis.Controllers.Players.GetById;

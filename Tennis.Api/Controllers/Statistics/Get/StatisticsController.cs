@@ -1,9 +1,5 @@
-using System;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Tennis.Application.UseCases.Statistics.Get;
-using Tennis.Entities;
 
 namespace Tennis.Controllers.Statistics.Get;
 

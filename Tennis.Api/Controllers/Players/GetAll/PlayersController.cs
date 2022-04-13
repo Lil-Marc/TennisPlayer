@@ -1,10 +1,7 @@
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using Tennis.Application.UseCases.Players.Get;
 using Tennis.Application.UseCases.Players.GetAll;
-using Tennis.Entities;
+using Tennis.Domain.Entities;
 
 
 namespace Tennis.Controllers.Players.GetAll;

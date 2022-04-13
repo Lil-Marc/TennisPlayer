@@ -1,6 +1,4 @@
-using System.Collections.Generic;
-
-namespace Tennis.Entities;
+namespace Tennis.Domain.Entities;
 
 public class Data
 {

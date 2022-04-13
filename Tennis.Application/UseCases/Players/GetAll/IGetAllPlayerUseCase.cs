@@ -1,5 +1,3 @@
-using Tennis.Entities;
-
 namespace Tennis.Application.UseCases.Players.GetAll;
 
 public interface IGetAllPlayerUseCase

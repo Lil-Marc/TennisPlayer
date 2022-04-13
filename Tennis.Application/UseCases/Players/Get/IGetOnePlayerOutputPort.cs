@@ -1,4 +1,4 @@
-using Tennis.Entities;
+using Tennis.Domain.Entities;
 
 namespace Tennis.Application.UseCases.Players.Get;
 

@@ -1,7 +1,6 @@
 using Newtonsoft.Json;
-using Tennis.Application.UseCases.Players.GetAll;
+using Tennis.Domain.Entities;
 using Tennis.Domain.Persistance.Players;
-using Tennis.Entities;
 
 namespace Tennis.Application.UseCases.Statistics.Get;
 
@@ -19,7 +18,6 @@ public class GetStatisticsUseCase : IGetStatisticsUseCase
     {
         _outputPort = outputPort;
     }
-    
     
     public void Execute()
     {

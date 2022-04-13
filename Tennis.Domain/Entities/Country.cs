@@ -1,4 +1,4 @@
-namespace Tennis.Entities;
+namespace Tennis.Domain.Entities;
 
 public class Country
 {
