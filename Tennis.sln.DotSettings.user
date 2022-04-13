@@ -1,9 +1,0 @@
-﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7f1992ec_002Dc1d3_002D4303_002D965e_002Daa63307df7e4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Given_PlayerHeightIs180WeightIs75_Then_IMCShouldBeEquals23Point1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::DBC280B3-809F-4CD0-A566-8650DB4762A6::net6.0::Tennis.Domain.Test.PlayerTest.Given_PlayerHeightIs180WeightIs75kg_Then_IMCShouldBeEquals23Point1&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::DBC280B3-809F-4CD0-A566-8650DB4762A6::net6.0::Tennis.Domain.Test.PlayerTest.Given_PlayerHeightIs180WeightIs75_Then_IMCShouldBeEquals23Point2&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::DBC280B3-809F-4CD0-A566-8650DB4762A6::net6.0::Tennis.Domain.Test.PlayerTest.Given_PlayerWin2Lost3_Then_WinRateShouldBe40Percent&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::DBC280B3-809F-4CD0-A566-8650DB4762A6::net6.0::Tennis.Domain.Test.PlayerCollectionTest.Given_PlayerCollection_Then_MedianHeightShouldBeCorrect&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
